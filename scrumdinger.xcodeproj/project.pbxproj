@@ -11,6 +11,10 @@
 		736240282A4477E500C285E8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736240272A4477E500C285E8 /* MeetingView.swift */; };
 		7362402A2A4477E700C285E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736240292A4477E700C285E8 /* Assets.xcassets */; };
 		7362402D2A4477E700C285E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7362402C2A4477E700C285E8 /* Preview Assets.xcassets */; };
+		736240342A4766B400C285E8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736240332A4766B400C285E8 /* Theme.swift */; };
+		736240372A478C7000C285E8 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736240362A478C7000C285E8 /* DailyScrum.swift */; };
+		736240392A478D9D00C285E8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736240382A478D9D00C285E8 /* CardView.swift */; };
+		7362403C2A479FD100C285E8 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7362403B2A479FD100C285E8 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		736240272A4477E500C285E8 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		736240292A4477E700C285E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7362402C2A4477E700C285E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		736240332A4766B400C285E8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		736240362A478C7000C285E8 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		736240382A478D9D00C285E8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7362403B2A479FD100C285E8 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		736240242A4477E500C285E8 /* scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				736240352A4766BB00C285E8 /* Models */,
+				7362403A2A479F6300C285E8 /* Views */,
+				7362403B2A479FD100C285E8 /* TrailingIconLabelStyle.swift */,
 				736240252A4477E500C285E8 /* scrumdingerApp.swift */,
-				736240272A4477E500C285E8 /* MeetingView.swift */,
 				736240292A4477E700C285E8 /* Assets.xcassets */,
 				7362402B2A4477E700C285E8 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				7362402C2A4477E700C285E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		736240352A4766BB00C285E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				736240332A4766B400C285E8 /* Theme.swift */,
+				736240362A478C7000C285E8 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7362403A2A479F6300C285E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				736240272A4477E500C285E8 /* MeetingView.swift */,
+				736240382A478D9D00C285E8 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736240372A478C7000C285E8 /* DailyScrum.swift in Sources */,
+				7362403C2A479FD100C285E8 /* TrailingIconLabelStyle.swift in Sources */,
+				736240342A4766B400C285E8 /* Theme.swift in Sources */,
 				736240282A4477E500C285E8 /* MeetingView.swift in Sources */,
 				736240262A4477E500C285E8 /* scrumdingerApp.swift in Sources */,
+				736240392A478D9D00C285E8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
